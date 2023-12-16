@@ -8,24 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lolan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\JerryNBA\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lolan\\OneDrive\\桌面\\陳玨鄅_家教\\Dec_nine\\Dec_nine\\Dec_nine.csproj",
+      "projectUniqueName": "D:\\SingerModel\\Dec_nine\\Dec_nine.csproj",
       "projectName": "Dec_nine",
-      "projectPath": "C:\\Users\\lolan\\OneDrive\\桌面\\陳玨鄅_家教\\Dec_nine\\Dec_nine\\Dec_nine.csproj",
-      "packagesPath": "C:\\Users\\lolan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lolan\\OneDrive\\桌面\\陳玨鄅_家教\\Dec_nine\\Dec_nine\\obj\\",
+      "projectPath": "D:\\SingerModel\\Dec_nine\\Dec_nine.csproj",
+      "packagesPath": "C:\\Users\\JerryNBA\\.nuget\\packages\\",
+      "outputPath": "D:\\SingerModel\\Dec_nine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lolan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\JerryNBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +32,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
