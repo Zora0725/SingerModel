@@ -1,4 +1,43 @@
-﻿using System.ComponentModel;
+﻿using Dec_nine;
+
+// 建立曲目
+var track1 = new Track(1, "Frankenstein", 2, 50);
+var track2 = new Track(2, "Gum", 4, 20);
+
+// 設定曲目1的歌詞
+track1.Lyrics = @"Hey, can we get some cowbell?
+Da-da, da-da-da, da
+Da-da, da-da-da
+I'm so sick of all these pretty boys tryna act like the shit
+And I just wish they wouldn't fall in love then leave me so quick...
+";
+
+// 建立曲目1的提供者資訊
+track1.提供者資訊 = new 提供者資訊();
+track1.提供者資訊.演出者.Add("AAA");
+track1.提供者資訊.演出者.Add("BBB");
+track1.提供者資訊.演出者.Add("CCC");
+track1.提供者資訊.創作者.Add("AAA");
+track1.提供者資訊.創作者.Add("DDD");
+track1.提供者資訊.創作者.Add("EEE");
+track1.提供者資訊.製作人.Add("AAA");
+track1.提供者資訊.製作人.Add("FFF");
+
+// 模擬使用者播放10000次曲目1
+for (int i = 0; i < 10000; i++)
+{
+    track1.Play();
+}
+
+// 曲目1
+track1.PrintTrackInfo();
+track1.ShowLyric();
+track1.顯示提供者();
+
+// 曲目2
+track2.PrintTrackInfo();
+track2.ShowLyric();
+track2.顯示提供者();
 
 //Singer Cindy = new Singer
 //{
